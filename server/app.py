@@ -21,7 +21,7 @@ class Home(Resource):
     def get(self):
         
         response_dict = {
-            "message": "Welcome to the Newsletter RESTful API",
+            "message": "Welcome to the RESTful API",
         }
         
         response = make_response(
